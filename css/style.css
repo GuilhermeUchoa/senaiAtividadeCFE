@@ -1,0 +1,290 @@
+/*cabeçalho*/
+
+header a:not(:hover) {
+
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: 1.5s;
+    
+    
+}
+header a:hover {
+    font-size: 20px;
+    transition: 1.5s;
+
+    background-color: rgb(129, 139, 226);
+    border-radius: 20px;
+    font-weight: 400;
+ 
+}
+
+
+/*Conteudo principal*/
+main.principal {
+    background: #ffffff;
+    background: linear-gradient(180deg, #ffffff 0%, #d6d6d6 50%, #fdfdfd 100%);
+}
+
+/*carousel*/
+section#caurosel {
+    background-color:rgba(49.00000087916851, 57.00000040233135, 135.00000715255737, 0.7799999713897705);
+    box-shadow:20px 22px 28.299999237060547px rgba(0, 0, 0, 0.25);
+    height: 593px;
+    width: 1676px;
+    
+    
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
+
+section#caurosel img {
+    height: 500px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+section#caurosel img:not(:hover) {
+    height: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+section#caurosel img:hover {
+    transition: 1s;
+
+    transform: scale(1.06);
+    border-radius: 30px;
+}
+
+.carousel-control-next{
+    transition: 1s;
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    border-radius: 30px;
+}
+
+.carousel-control-prev{
+    transition: 1s;
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    border-radius: 30px;
+}
+
+
+
+
+
+section#caurosel div.col-2 {
+    position: relative;
+    top: 120px;
+    height: 300px;
+    width: 400px;
+    padding: 2.5%;
+    border-radius: 30px;
+    background-color:#313a8762;
+    box-shadow: 20px 19px 20px 0px  rgba(0, 0, 0, 0.25);
+    font-size: 17;
+    color:#FFFFFF;
+}
+/* Tentativa de deixar o banner mais otimizado */
+@media only screen and (max-width: 1400px) {
+    section#caurosel div.col-2 {
+        position: relative;
+        top: 120px;
+        height: 300px;
+        width: 300px;
+        font-size:medium;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    section#caurosel div.col-2 {
+        position: relative;
+        top: 120px;
+        height: 300px;
+        width: 200px;
+        font-size:small;
+
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    section#caurosel div.col-2 {
+        position: relative;
+        top: 120px;
+        height: 300px;
+        width: 150px;
+        font-size:12;
+
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    section#caurosel div.col-2 {
+        position: relative;
+        top: 120px;
+        height: 300px;
+        width: 150px;
+        font-size:12;
+
+    }
+}
+
+section#caurosel div.col-3 img:hover {
+    transition: 0.5s;
+    font-size: 18px;
+    
+}
+
+
+section#caurosel div.col-8 {
+    position: relative;
+    top: 30px;
+    
+}
+
+section#caurosel {
+    box-shadow: 20px 19px 20px 0px  rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+
+
+
+
+/*cards*/
+
+section.container#cards {
+    position: relative;
+    top: 50px;
+}
+
+.container.card-group {
+    width: 80%;
+    position: relative;
+    top: 50px;
+    
+}
+
+section.container#cards img {
+    height: 290px;
+    
+}
+
+section#cards {
+    background-color:rgba(49.00000087916851, 57.00000040233135, 135.00000715255737, 0.7799999713897705);
+    box-shadow:20px 22px 28.299999237060547px rgba(0, 0, 0, 0.25);
+    height: 660px;
+    width: 1676px;
+    border-radius: 30px;
+    padding: 10px;
+      
+}
+
+section.container#cards div.card:not(:hover)  {
+    padding: 10px;
+    transition: 1s;
+
+}
+
+section.container#cards div.card:hover  {
+    font-size: 18.5;
+    transition: 0.8s;
+    background-color: aliceblue;
+
+}
+section.container#cards div.card img:not(:hover)  {
+    transition: 1s;
+    transform: scale(1);
+    border-radius: 30px;
+    padding: 20px;
+
+}
+section.container#cards div.card img:hover  {
+    transition: 1s;
+    transform: scale(1.06);
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+a.btn.btn-primary:not(:hover) {
+    position: relative;
+    left: 5.3rem;
+    font-size: 16px;
+    transition: 1s;
+}
+a.btn.btn-primary:hover {
+    position: relative;
+    left: 5.5rem;
+    font-size: 20px;
+    transition: 1s;
+   
+}
+
+
+/*Rodapé*/
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+footer p {
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+/*Botão Voltar topo*/
+
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+
+#section-login {
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+#bt-login {
+    position: relative;
+   
+}
+
+/* Formulário de cadastro*/
+
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+
+#botao-voltarLogin {
+    padding: 5px;
+}
+
